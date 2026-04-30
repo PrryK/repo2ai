@@ -1,8 +1,16 @@
 # repo2ai
 
+[![CI](https://github.com/PrryK/repo2ai/actions/workflows/ci.yml/badge.svg)](https://github.com/PrryK/repo2ai/actions/workflows/ci.yml)
+
 repo2ai packs a local code repository into a clean, structured, token-aware Markdown context file for ChatGPT, Claude, Codex, and other AI coding agents.
 
-It is for developers who want to give an AI model the right project context without manually copying files.
+It helps developers give an AI coding assistant the right project context without manually copying files.
+
+```sh
+repo2ai .
+```
+
+By default, this writes `repo-context.md` in the current working directory. repo2ai is local-first: it scans files on your machine and does not upload code, call external APIs, or integrate with AI APIs.
 
 ## Features
 
@@ -13,7 +21,7 @@ It is for developers who want to give an AI model the right project context with
 - Generates a directory tree, included files table, omitted files table, suggested prompt, and file contents.
 - Skips binary files, real `.env` files, lock file contents, and very large files by default.
 - Redacts common secrets before writing output.
-- Has no backend, no external API calls, and no AI API integration.
+- Has no backend, no uploads, no external API calls, and no AI API integration.
 
 ## Install
 
