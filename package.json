@@ -4,6 +4,25 @@
   "description": "Pack a local repository into a clean, token-aware Markdown context file for AI coding agents.",
   "type": "module",
   "license": "MIT",
+  "keywords": [
+    "ai",
+    "cli",
+    "typescript",
+    "markdown",
+    "developer-tools",
+    "code-context",
+    "chatgpt",
+    "claude",
+    "codex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrryK/repo2ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PrryK/repo2ai/issues"
+  },
+  "homepage": "https://github.com/PrryK/repo2ai#readme",
   "bin": {
     "repo2ai": "./dist/cli.js"
   },
