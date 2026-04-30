@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.cache/
+.turbo/
+
+*.log
+*.tmp
+*.tsbuildinfo
+
+.env
+.env.*
+
+*-context.md
+*-context-*.md
+.release-review/
