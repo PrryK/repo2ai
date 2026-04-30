@@ -1,5 +1,5 @@
 {
-  "name": "repo2ai",
+  "name": "@c.v.e/repo2ai",
   "version": "0.1.0",
   "description": "Pack a local repository into a clean, token-aware Markdown context file for AI coding agents.",
   "type": "module",

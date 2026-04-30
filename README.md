@@ -26,10 +26,10 @@ By default, this writes `repo-context.md` in the current working directory. repo
 ## Install
 
 ```sh
-npm install -g repo2ai
+npm install -g @c.v.e/repo2ai
 ```
 
-`npm install -g repo2ai` will work after the first npm release. For local development, use `npm install && npm run build && npm link`.
+The npm package is scoped as `@c.v.e/repo2ai`, but the installed CLI command is still `repo2ai`.
 
 For local development:
 
