@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/PrryK/repo2ai#readme",
   "bin": {
-    "repo2ai": "./dist/cli.js"
+    "repo2ai": "dist/cli.js"
   },
   "files": [
     "dist",
